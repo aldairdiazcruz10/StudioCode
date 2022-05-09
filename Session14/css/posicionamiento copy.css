@@ -1,0 +1,16 @@
+.tamaño{
+    height: 60px;
+    width: 100px;
+}
+#Caja1{
+    background-color: red;
+}
+#Caja2{
+    background-color: blue;
+}
+#Caja3{
+    background-color: green;
+}
+#Caja4{
+    background-color: yellow;
+}
