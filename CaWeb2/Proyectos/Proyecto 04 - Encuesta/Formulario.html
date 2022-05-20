@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Encuesta</title>
+</head>
+<body style="background-color: rgb(221, 248, 124);">
+    <div id="Contenedor">
+    <!-- <h2 style="width:150px;height:50px;border:1px solid #000;"></h2> -->
+    <h2 style="color:rgb(17, 49, 17);text-align:center">
+    <input type="image" src="Imag/descarga.jpg" style="width: 200px;height:100px;">
+    &nbsp;&nbsp;ENCUESTA DE CINE: NOMINADAS AL OSCAR 2021 &nbsp;&nbsp;
+    <input type="image" src="Imag/descarga.jpg" style="width: 200px;height: 100px;" ></h2>
+    <from id="formulario" name="formulario1" method="POST" action="data.php">
+        <fieldset id="datos_personales">
+            <legend>Datos Personales</legend>
+            <label for ="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for ="nombre">Apellido</label><br>
+            <input type="text" name="apellido" id="apellido"><br>
+            <label for ="nombre">DNI</label><br>
+            <input type="text" name="dni" id="dni" maxlength="9"><br>
+            <label for ="nombre">Edad</label><br>
+            <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+            <label for="sexo">Sexo</label><br>
+            <select name="0S">
+                <option selected value="0">...</option>
+                <option value="1">Masculino</option>
+                <option value="2">Femenino</option>
+            </select>
+        </fieldset><br>
+        <fieldset id="mejor_película">
+            <legend>Mejor Pelicula</legend>
+            <input type="radio" name="pelicula" value="11"> Milagro de la celda 7<br>
+            <input type="radio" name="pelicula" value="22"> Titanic<br>
+            <input type="radio" name="pelicula" value="33"> Avengers<br>
+        </fieldset><br>
+        <fieldset id="peliculas_no_visto">
+            <legend>Selecciona las películas que no hayas visto</legend>
+            <input type="checkbox" name="pelicula" value="11"> Presagio<br>
+            <input type="checkbox" name="pelicula" value="22"> La Tormenta<br>
+            <input type="checkbox" name="pelicula" value="33"> Infinite<br>
+            <input type="checkbox" name="pelicula" value="44"> Jigsaw<br>
+            <input type="checkbox" name="pelicula" value="55"> Dr Sleep<br>
+        </fieldset><br>
+        <fieldset id="grupo_argumento">
+            <legend>Argumento de tu película preferida</legend>
+            <textarea id="argumento" name="argumento" rows="12" cols="100"></textarea>
+         </fieldset>
+         <br>
+         <div style="text-align: center;"> 
+            <button style="height: 40px;background-color: rgb(61, 141, 85);">Borrar Formulario</button>
+            <button style="height: 40px;width: 120px;background-color:rgb(61, 141, 85);"> Enviar</button>
+    
+            </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+#caja1{
+    float: left;
+    height: 100px;
+  
+}
+.icono{
+    width: 100%;
+    height: 150%;
+    margin: 10px;
+}
+header{
+    background-color: blueviolet;
+    height: 200px;
+  
+}
+.parrafo{
+    text-align: justify;
+
+}
+.parrafo2{
+    text-align: justify;
+
+}
+
+#inicio{
+    float: right;
+    height: auto;
+    width: auto;
+    background-color: rgb(96, 147, 206);
+    color: black;
+    font-family: initial;
+    font-size: 15px;
+    
+}
+
+h1{
+    margin: auto;
+    font-family: 'Segoe UI';
+    height: auto;
+    text-align: center;
+}
+.Sub{
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+   
+}
+h3{
+    font-family: calibri;
+    font-size: 20px;  
+    
+}
+
+h4{
+    
+    font-family: calibri;
+    font-size: 16px;  
+}
+
+nav{
+    position: center;
+    background-color: rgb(71, 65, 161);
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    height: 40px;  
+
+}
+
+input{
+    background-color: rgb(71, 65, 161);
+    color: white;
+    height: 40px;
+    width: 250px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 1fr;
+}
+    
+#caja2{
+    float:left;
+    background-color:  darkmagenta;
+    width: 250px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+#caja3{
+    background-color: rgb(148, 148, 151);
+    width: 200px;
+    height: 175px;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align:justify;
+    
+}
+
+#caja4{
+    background-color: rgb(148, 148, 151);
+    width: 200px;
+    height: 175px;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align:justify;
+}
+
+
+#caja5{
+    float: left;
+    width: 1425%; 
+    background-color:  indigo;
+    color: white;
+
+}
+
+.Footer{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;     
+    background-color:  darkorchid;
+    width: 1425%;  
+    height: 100%; 
+}
+.img{
+    float: left;
+    width: 150px;   
+}
+
+#imagen{
+    float:left;
+    width: 250px;
+    height: 140px;
+    margin: 20px;
+
+}
+
+section{
+    float: left;
+    
+}
+.aside{
+ background-color: darkmagenta;
+}
+.a{
+    margin: 20px;
+}
+.b{
+    margin: 20px;
+}
+.d{
+    margin: 10%;
+}

@@ -29,8 +29,6 @@ h1{
 }
 .img {
     width: 350px;
-    height: 200px;
-    border: 2px solid;
     float: right;
 }
 .nav {
