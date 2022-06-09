@@ -1,0 +1,81 @@
+#contenedor {
+    width:  730px;
+    margin: 10%;
+    margin-left: 25%;
+    background-color: #ac4c5e;
+    padding-left: 10px;
+    font-family: calibri;
+    
+    
+}
+span {
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+.nom {
+    background-color: #5C476F;
+    max-width: 100%;
+    
+}
+.nomemail{
+    width: 300px;
+    background-color: #5C476F ;
+}
+
+.titu{
+    
+    max-width: 100%;
+    background-color:  #EEEEEE;
+    
+}
+.tituemail{
+    width: 300px;
+    background-color: #EEEEEE;
+}
+.titudireccion{
+    width: 200px;
+    background-color: #EEEEEE;
+}
+.nomedireccion{
+    width: 200px;
+    background-color: #5C476F;
+}
+
+li {
+    list-style: none;
+    margin-top: 1px;
+}
+ul{
+    margin:  0px;
+    padding-left: 0px;
+}
+#Da{
+    background-color: #FFBC65;
+}
+
+#bu:hover{
+    background-color: #FFBC65;
+    
+}
+
+#agenda{
+    width: 100px;
+    height:100px;
+    padding: 50px 50px 0px 60px;
+    margin-left: 10px;
+    float: left;
+}
+#reporte1{
+    background-color:#A2A8D3;
+    width: 200px;
+    text-align: center;
+}
+#reporte2{
+    background-color: #A2A8D3;
+    width: 200px;
+    text-align: center;
+}
+
+

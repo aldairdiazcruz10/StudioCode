@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.main{
+    color: white;
+    font-family: Arial;
+}
+header {
+    background-color: blueviolet;
+    height: 130px;
+    width: 100%;
+}
+.nav {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 50px;
+
+}
+section {
+    background-color: indigo;
+    width: 80%;
+    
+
+}
+aside{
+    background-color: darkmagenta;
+    width: 20%;
+    
+    
+}
+footer {
+    background-color: darkorchid;
+    height: 30px;
+    clear: left;
+
+}
+.caja2{
+    background-color:	#7F69A5;
+    height: 200px;
+    width: 100%;
+}
+aside,section{
+    float: left;
+    height: 650px;
+}
+.Cabezal{
+   padding: 20px 1px 10px 10px;
+   float: left;
+}
+#img{
+    width: 100px;
+    height: 100px;
+    padding: 10px 20px 10px 20px;
+    float: left;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 150px;
+    display: block;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+    
+}
+.menu li a:hover{
+    background: #4A2364;
+}
+#camavin{
+    border: 10%;
+    width: 200px;
+    height: 150px;
+   float: right;
+   margin: 20px;
+}
+.caja1{
+    
+    text-align: justify-all;
+    margin-top: 10px;
+    font-size: 18px;
+    margin: 20px;
+    
+}
+#kroos{
+    border: 10%;
+    width: 200px;
+    height: 150px;
+   float: right;
+   margin: 20px;
+
+}
+.caja3{
+    text-align: justify-all;
+    margin-top: 10px;
+    font-size: 18px;
+    margin: 20px;
+}
+.marco1{
+    width: 70%;
+    height: 40%;
+    background-color: #E0B0FF;
+    margin: 10%;
+}
+.marco2{
+    width: 70%;
+    height: 40%;
+    background-color: #E0B0FF;
+    margin: 10%;
+}
+#ima2{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+}
+.Datos{
+    
+    padding: 20px 10px 20px 50px;
+    float: left;
+}
+.Datos li{
+    margin: 10px;
+}
+.Datos2{
+    
+    padding: 20px 10px 20px 100px;
+    float: left;
+}
+.Datos2 li {
+    margin: 10px;
+}
+.Datos3{
+    
+    padding: 20px 10px 20px 60px;
+    float: left;
+}
+.Datos3 li{
+    
+    padding: 10px 20px 10px 20px;
+}
+.Datos4{
+    
+    padding: 20px 10px 20px 60px;
+    float: left;
+}
+.Datos4 li{
+    
+    padding: 10px 20px 10px 20px;
+}
+

@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 main{
     color: white;
     font-family: Arial;
@@ -8,7 +12,7 @@ header {
 }
 nav {
     background-color: cornflowerblue;
-    width: 15%;
+    width: 100%;
 
 }
 section {
@@ -27,7 +31,7 @@ footer {
     clear: left;
 
 }
-nav, aside,section{
+aside,section{
     float: left;
     height: 340px;
 }

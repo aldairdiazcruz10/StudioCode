@@ -4,10 +4,10 @@ body{
 .grid{
     display: grid;
     min-height: 100vh;
-    grid-template-columns: 200px 1fr 200px ;
+    grid-template-columns: 200px 1fr 100px;
     grid-template-rows: 200px 1fr 100px;
-    grid-template-areas: "my-header my-header my-header"
-    "my-nav my-section my-aside"
+    grid-template-areas: "my-header my-header my-header" "my-nav"
+    "my-section my-aside"
     "my footer my footer my footer ";
     
 }

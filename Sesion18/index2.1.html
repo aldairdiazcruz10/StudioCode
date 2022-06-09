@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/d2.css">
+    <title>Agenda de Contacto</title>
+</head>
+<body onload="actualizarDatos()" id="Da">
+    <div id="contenedor">
+        <header>
+            <center><h3>Mi Agenda de contacto</h3></center>
+            <hr>
+        </header>
+        <form>
+            <span>Nombre:</span>
+            <input type="text" placeholder="Nombre" id="nombre"><br><br>
+            <span>N° celular:   </span>
+            <input type="text" placeholder="Movil"  id="movil">  
+            
+        </form>
+       <hr />
+       <div>
+        <button type="button" onclick="guardarDato()">Guardar</button>
+        <button type="button" onclick="recuperarDato()">Recuperar</button>
+        <button type="button" onclick="eliminarDato()">Eliminar</button>
+        <button type="button" onclick="eliminarTodo()">Eliminar todo</button>  
+       </div>
+    <hr>     
+    <span class="titu">Nombre</span> <span class="titu">Celular</span><br> 
+    <ul id="contactos"></ul>
+    </div>
+    <script src="scrip/parte2.js"></script>
+</body>
+</html>
